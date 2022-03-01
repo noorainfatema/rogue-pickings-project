@@ -25,10 +25,8 @@ h3 {
 	color: black;
 	text-transform: uppercase;
 	font-weight: 700;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
+
 h1 {
 	font-size: 1.8em;
 }
@@ -94,7 +92,6 @@ header nav ul li a{
 	flex-flow: row wrap;
 }
 
-}
 .main-image img {
 	width: 100%;
 	border-bottom: 3px solid #77a466;
