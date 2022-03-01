@@ -151,3 +151,49 @@ footer span {
 	color: #77a466;
 	font-size: 0.9em;
 }
+
+/************TABLETS**************/
+
+@media all and (min-width:768px) {
+
+	.bottom-section {
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+
+	.section-one,
+	.section-two,
+	.section-three {
+	flex-basis: 30%;
+	}
+
+	.section-two {
+		border-left: 1px solid #eee;
+		border-right: 1px solid #eee;
+		padding: 0 20px;
+	}
+}
+ 
+/**********DESKTOPS**********/
+
+@media all and (min-width:1200px) {
+
+	header {
+		justify-content: space-between;
+	}
+
+	header h1 {
+		border-bottom: none;
+		text-align: left;
+		width: 30%;
+	}
+
+	header nav {
+		width: 40%;
+	}
+	
+	header nav ul {
+		display: flex;
+		justify-content: space-between;
+	}
+}
